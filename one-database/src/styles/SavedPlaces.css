@@ -1,0 +1,55 @@
+.main {
+  width: 360.29pt;
+  /* height: 585.42pt; */
+  border: solid 2pt rgba(97, 97, 96, 1);
+  backdrop-filter: blur(30pt);
+  cursor: default;
+  transition: 0.3s ease;
+  border-radius: 12pt;
+  background: rgba(0, 24, 29, 0.4);
+}
+.marginControl {
+  margin-right: 16pt;
+  margin-left: 16pt;
+  margin-top: 46.89pt;
+  margin-bottom: 24pt;
+}
+.ourServicesCardRow {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  row-gap: 22.07pt;
+}
+
+.shopCard {
+  background-color: white;
+  font-size: 14pt;
+  color: black;
+  text-align: center;
+  /* font-weight: bold; */
+  margin: 10pt auto auto auto;
+  width: 277pt;
+  height: 63pt;
+  border: solid 1pt black;
+  border-radius: 12pt;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.shopDetails {
+  margin: auto auto auto auto;
+}
+.twoRows {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10pt;
+}
+
+.main:hover {
+  /* transform: scale(1.1); */
+  border: solid 2pt rgba(0, 140, 168, 1);
+}
+
+.orderButton:hover {
+  background: rgba(0, 168, 151, 1);
+}

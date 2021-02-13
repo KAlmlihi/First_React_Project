@@ -1,0 +1,18 @@
+.App { 
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.child{
+  width: 100pt;
+  height: 100pt;
+  background-color: red;
+}
+.child2{
+  width: 100pt;
+  height: 100pt;
+  background-color: green;
+}

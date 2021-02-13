@@ -1,0 +1,194 @@
+/* .Container{
+    height: 50pt; 
+    width: 50pt;
+    border: 5pt;
+} */
+
+.main {
+  width: 360.29pt;
+  /* height: 585.42pt; */
+  border: solid 2pt rgba(97, 97, 96, 1);
+  backdrop-filter: blur(30pt);
+  cursor: default;
+  transition: 0.3s ease;
+  border-radius: 12pt;
+  background: rgba(0, 24, 29, 0.4);
+}
+.marginControl {
+  margin-right: 16pt;
+  margin-left: 16pt;
+  margin-top: 46.89pt;
+  margin-bottom: 24pt;
+}
+.ourServicesCardRow {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  row-gap: 22.07pt;
+}
+
+.shopCard {
+  background-color: white;
+  font-size: 14pt;
+  color: black;
+  text-align: center;
+  /* font-weight: bold; */
+  margin: 10pt auto auto auto;
+  width: 277pt;
+  height: 63pt;
+  border: solid 1pt black;
+  border-radius: 12pt;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.shopDetails {
+  margin: auto auto auto auto;
+}
+.icon{
+  height: 30pt;
+  width: 30pt;
+}
+.twoRows {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10pt;
+
+  /* justify-content: space-evenly; */
+}
+.orderButton {
+  height: 35.51pt;
+  width: 225.24pt;
+  background: #E39E00;
+  border-radius: 8pt;
+  backdrop-filter: blur(50pt);
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: table;
+  cursor: pointer;
+  transition: 1s;
+}
+.orderButton span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main:hover {
+  /* transform: scale(1.1); */
+  border: solid 2pt rgba(0, 140, 168, 1);
+}
+
+.orderButton:hover {
+  transition: 1s;
+  background: #5752DA;
+}
+
+/* @media only screen and (max-width: 1900px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+  }
+
+  .ourServicesCardRow {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width: auto;
+  }
+  .marginControl {
+    margin-right: 16pt;
+    margin-left: 16pt;
+    margin-top: 46.89pt;
+  }
+  .text {
+    font-size: 26pt;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    width: 218pt;
+    height: 93pt;
+  }
+  .subText {
+    color: white;
+    text-align: center;
+    direction: ltr;
+    font-size: 12pt;
+    margin: auto;
+    padding-top: 8pt;
+    height: 90pt;
+  }
+  .icon {
+    width: 127.14pt;
+    height: 127.14pt;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    margin-top: 23pt;
+  }
+
+  .ourServicesCardRow {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 12.07pt;
+    width: 100%;
+  }
+  .marginControl {
+    margin-right: 16pt;
+    margin-left: 16pt;
+    margin-top: 46.89pt;
+  }
+  .text {
+    font-size: 26pt;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    width: 218pt;
+    height: 93pt;
+  }
+  .subText {
+    color: white;
+    text-align: center;
+    direction: ltr;
+    font-size: 12pt;
+    margin: auto;
+    padding-top: 8pt;
+    height: 90pt;
+  }
+  .icon {
+    width: 127.14pt;
+    height: 127.14pt;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    margin-top: 23pt;
+    height: 385.42pt;
+  }
+  .ourServicesCardRow {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    row-gap: 12.07pt;
+  }
+  .text,
+  .subText {
+    font-size: 14pt;
+  }
+  .icon {
+    width: 60pt;
+    height: 60pt;
+    margin: auto;
+  }
+} */
